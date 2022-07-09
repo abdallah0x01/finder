@@ -5,4 +5,5 @@ findings = []
 for dirpath,direnames,filenames in os.walk(f'{partation2searchin}:\\'):
     if to_find in filenames or to_find in direnames:
         findings.append(dirpath)
-for finding in findings: print(finding)
+for finding in findings:
+    print(finding)
